@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Araby Store </title>
+      <link id="favicon" rel="shortcut icon" href="img/favicon.png" type="img/png" />
+      
+    <link rel="stylesheet" href="css/bootstrap-rtl%20min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/nouislider.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/flickity.css" media="screen">
+      <link rel="stylesheet" href="css/li-scroller.css" media="screen">
+      <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <div class="wow fadeInDown">
+      <nav class="navbar navbar-default">
+        <div id="header" class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-wrapper" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="header collapse navbar-collapse" id="nav-wrapper">
+            <div>
+              <ul class="nav navbar-nav" id="navigator" reversed>               
+                <li class="current-page"><a href="#">الرئيسية</a></li>
+                  <li><a href="#">من أنا</a></li>
+                  <li><a href="#">المدونة</a></li>
+                  <li class="dropdown"><a href="#">معرض أعمالي</a></li>
+                  <li><a href="#">المتجر</a></li>
+                  <li><a href="#">أطلب تصميم</a></li>
+                  <li><a href="#">راسلني</a></li>   
+              </ul>
+            </div>
+            <div class="nav navbar-nav">
+              <!--
+                <div class="searchlink" id="searchlink">
+                  <i class="fa fa-search"></i>
+                
+                  <div class="searchform">
+                    <form id="search">
+                      <input type="text" class="s" id="s" placeholder="محتوى البحث">
+                      <button type="submit" class="sbtn"><i class="fa fa-search"></i></button>
+                    </form>
+                    </div>
+                       </div>
+                -->
+              <form action="" class="search-form">
+                <div class="form-group has-feedback">
+                  <label for="search" class="sr-only">Search</label>
+                  <input type="text" class="form-control" name="search" id="search" placeholder="إبحث هنا">
+                  <span class="fa fa-search form-control-feedback"></span>
+                </div>
+              </form>
+            </div>
+            <div>
+              <ul class="nav navbar-nav navbar-center social-nav pull-right">
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+    </div>
+      
+<!--      Carusel First with buttons-->
+      <div class="container">
+        <div id="main-carousel" class="carousel slide row wow slideInUp" data-ride="carousel">
+ 
+            <ol class="carousel-indicators">
+        <li data-target="main-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="main-carousel" data-slide-to="1" ></li>
+                <li data-target="main-carousel" data-slide-to="2"></li>
+            </ol>
+            
+            
+              <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+            <div class="item active col-md-12">
+              
+              <div class="col-md-7 carousel-description"style="">
+                  <h1>دا المفروض يكون عنوان كبير كدا ف الأول هناهوه</h1>
+                  <h4>ودي فقرة وبدال مانقعد نكتب لوريم ايبسوم والكلام الفاضي دا ممكن نملاها احنا بأي كلام زي للي اتكتب دا مثلاً يعني</h4>
+                  <button class="btn btn-lg btn-primary pill">ودا زرار كبير</button>
+              </div>
+              <div class="col-md-5">
+                  <img src="img/phone_photo.jpg" alt="mobile photo">
+              </div>
+              
+            </div>
+            <div class="item col-md-12">
+              
+              <div class="col-md-7 carousel-description"style="">
+                  <h1>دا المفروض يكون عنوان كبير كدا ف الأول هناهوه</h1>
+                  <h4>ودي فقرة وبدال مانقعد نكتب لوريم ايبسوم والكلام الفاضي دا ممكن نملاها احنا بأي كلام زي للي اتكتب دا مثلاً يعني</h4>
+                  <button class="btn btn-lg btn-primary pill">ودا زرار كبير</button>
+              </div>
+              <div class="col-md-5">
+                  <img src="img/phone_photo.jpg" alt="mobile photo">
+              </div>
+              
+            </div>
+            <div class="item col-md-12">
+              
+              <div class="col-md-7 carousel-description"style="">
+                  <h1>دا المفروض يكون عنوان كبير كدا ف الأول هناهوه</h1>
+                  <h4>ودي فقرة وبدال مانقعد نكتب لوريم ايبسوم والكلام الفاضي دا ممكن نملاها احنا بأي كلام زي للي اتكتب دا مثلاً يعني</h4>
+                  <button class="btn btn-lg btn-primary pill">ودا زرار كبير</button>
+              </div>
+              <div class="col-md-5">
+                  <img src="img/phone_photo.jpg" alt="mobile photo">
+              </div>
+              
+            </div>
+                
+
+         
+
+          <!-- Controls -->
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+        </div>
+      
+      <div class="margin-30"></div>
+<!--      Carusel with photos only-->
+            <div class="container wow slideInUp">
+        <div id="products-carousel" class="row">
+ 
+          <div class="carousel-cell col-md-3"><div class=""></div></div>
+          <div class="carousel-cell col-md-3"><div class=""></div></div>
+          <div class="carousel-cell col-md-3"><div class=""></div></div>
+            <div class="carousel-cell col-md-3"><div class=""></div></div>
+          <div class="carousel-cell col-md-3"><div class=""></div></div>
+          <div class="carousel-cell"><div class=""></div></div>
+        </div>
+        </div>
+      
+<!--      News Bar-->
+      <div class="margin-30"></div>
+      <div class="container wow fadeInRight">
+        <div id="news" class="row">
+          <div class="news-title col-md-2 col-xs-12"><p>أخر الأخبار</p></div>
+          <marquee class="news-bar col-md-10 col-xs-12">
+              <ul class="">
+            <li><div class="news-item" ><div class="news-tag politics"><p>سياسي</p></div><p class="news-content">ده خبر لعنوان سياسي</p></div></li>
+            <li><div class="news-item"><div class="news-tag sports"><p>رياضي</p></div><p class="news-content">ده خبر لعنوان رياضي</p></div></li>
+            <li><div class="news-item"><div class="news-tag arts"><p>فنون</p></div><p class="news-content">ده خبر لعنوان فني</p></div></li>
+                  <li><div class="news-item" ><div class="news-tag politics"><p>سياسي</p></div><p class="news-content">ده خبر لعنوان سياسي</p></div></li>
+            <li><div class="news-item"><div class="news-tag sports"><p>رياضي</p></div><p class="news-content">ده خبر لعنوان رياضي</p></div></li>
+            <li><div class="news-item"><div class="news-tag arts"><p>فنون</p></div><p class="news-content">ده خبر لعنوان فني</p></div></li>
+            <li><div class="news-item"><div class="news-tag arts"><p>فنون</p></div><p class="news-content">ده خبر لعنوان فني</p></div></li>
+            <li><div class="news-item"><div class="news-tag arts"><p>فنون</p></div><p class="news-content">ده خبر لعنوان فني</p></div></li>
+            <li><div class="news-item"><div class="news-tag arts"><p>فنون</p></div><p class="news-content">ده خبر لعنوان فني</p></div></li>
+              </ul>
+          </marquee>
+        </div>
+      </div>
+      
+      <div class="margin-30"></div>
+      <div class="cards-container container">
+        <div class="row">
+            <div id="tabs" class="col-md-4 col-xs-12 wow fadeInRight">
+            <div class="card">
+            <ul class="nav nav-tabs">
+                <li data-toggle="tab"  class="active"><a href="#1">المفعل</a></li>
+                <li data-toggle="tab"><a href="#2">تبويب تاني</a></li>
+                <li data-toggle="tab"><a href="#3">تبويب تالت</a></li>
+            </ul>
+              
+			  
+            <div class="card-block">
+              <!--                    <div class="card-block">-->
+                <div class="tab-content">
+			  <div class="tab-pane active" id="1">
+              <h4>مثال على عنوان لمحتوى التبويب هنا بالعنصر المُعفل للتبويبات</h4>
+                <p>مثال على فقرة أسفل عنوان المحتوى الخاص بالتبويبات هنا بخط مختلف يليق بتنسيق الفقرات أكثر</p>
+                  </div>
+				<div class="tab-pane" id="2">
+              <h4>مثال على عنوان لمحتوى التبويب هنا بالعنصر المُعفل للتبويبات</h4>
+                <p>مثال على فقرة أسفل عنوان المحتوى الخاص بالتبويبات هنا بخط مختلف يليق بتنسيق الفقرات أكثر</p>
+				</div>
+        <div class="tab-pane" id="3">
+               <h4>مثال على عنوان لمحتوى التبويب هنا بالعنصر المُعفل للتبويبات</h4>
+                <p>مثال على فقرة أسفل عنوان المحتوى الخاص بالتبويبات هنا بخط مختلف يليق بتنسيق الفقرات أكثر</p>
+				</div>
+            </div>
+            <!--                    </div>-->
+          </div>
+            </div>
+            </div>
+          
+            <div id="login-card" class="col-md-5 col-xs-12 wow fadeInLeft pull-right">
+                <div class="card">
+            <div class="card-header">
+              <h3 class="">منطقة دخول الأعضاء</h3>
+            </div>
+            <div class="card-block">
+                <div class="col-md-10 col-md-offset-1" style="margin-top: 3em;">
+              <div class="form-group">
+                <div class="icon-addon addon-lg">
+                    <input type="text" placeholder="اسم المستخدم" class="form-control" id="email">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="icon-addon addon-lg">
+                    <input type="text" placeholder="كلمة المرور" class="form-control" id="email">
+                    <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                </div>
+            </div>
+                <div class="login-buttons">
+                <a>فقدت كلمة المرور</a>
+                <button class="btn btn-login pill">سجل الدخول</button>
+                <a>تسجيل عضو جديد</a>
+                </div>
+                <div class="login-social">
+                <button class="btn btn-facebook pill"><i class="fa fa-facebook"></i>&emsp;دخول بفيسبوك</button>
+                <button class="btn btn-twitter pill"><i class="fa fa-twitter"></i>&emsp;دخول بتويتر</button>
+                </div>
+            </div>
+                </div>
+            </div>
+          </div>
+            <div id="psd-file" class="col-md-3 col-xs-12 pull-right wow fadeIn">
+                <div class="card">
+                    <div class="card-block">
+                        <img src="img/psd_icon.svg" alt="PSD icon">
+                        <div id="file-download">
+                            <h4>يو أي عربي الإصدار الثاني
+                            </h4>
+                            <p>PSD, 130 Mb</p>
+                            <button class="btn btn-primary pill">إضغط للتحميل&emsp;<i class="fa fa-cloud-download" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            <div id="likers" class="col-md-4 col-xs-12 wow fadeInRight">
+            <div class="card socials">
+            <div class="social-row facebook">
+                        <div class="pull-left">
+                            <a href="#"><i class="fa fa-facebook"></i><span>تابعنا في فيسبوك</span></a>
+                        </div>
+                        <div class="pull-right"><span class="count">4873695</span></div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div id="email-list-wide" class="col-md-7 col-xs-12 wow fadeInRight">
+            
+            
+            <div class="email-description col-md-5 col-xs-12">
+                <h4>النشرة البريدية الأسبوعية</h4>
+                <p>إشترك بالقائمة البريدية لتصلك بريدية أسبوعية بكُل جديد لدنيا على بريدك</p>
+            </div>
+                <div class="email-subscribe col-md-7 col-xs-12">
+                <div class="form-group">
+                <div class="icon-addon">
+                    <input type="text" placeholder="أدخل بريدك الإلكتروني" class="form-control" id="email">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </div>
+                    <div>
+                    <button class="btn warning-btn email-subscribe-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                    </div>
+            </div>
+            </div>
+            </div>
+          </div>
+      </div>
+      
+      <div class="margin-30"></div>
+<!--      First Footer-->
+      <div id="first-footer">
+      <div class="container wow fadeInUp">
+          <div class="row">
+            
+             <div class="footer-col4 col-md-3 col-xs-12"><img src="img/logo_footer.svg"><p>هنا مثلاً وصف للموقع للي الفوتر دا هيكون فيه بيوضح نبذة عن الموقع ونشاطة وأي كلام عنة ف المنطقة دي</p></div>
+              
+           
+            
+              <div class="footer-col3 col-md-3 col-xs-12">
+              <div>
+                <ul class="ul-links">
+                
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">من نحن</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                    <li><a href="#">معرض الأعمال</a></li>
+                    <li><a href="#">رابط الفوتر</a></li>
+                    <li><a href="#">هنا رابط تاني</a></li>
+                    <li><a href="#">روابط إعلانية</a></li>
+                    <li><a href="#">يو أي عربي</a></li>
+                    <li><a href="#">إقتراحات الأعضاء</a></li>
+                    <li><a href="#">للمراسلة</a></li>
+                    <li><a href="#">صفحة الإعلانات</a></li>
+                    <li><a href="#">تطويرات جديدة</a></li>
+                    <li><a href="#">هنا رابط بردو</a></li>
+                    <li><a href="#">هنا رابط تانية</a></li>
+                    <li><a href="#">هنا رابط تالتة</a></li>
+                    <li><a href="#">روابط إعلامية</a></li>
+                    <li><a href="#">الرئيسية</a></li>
+                  </ul>
+                
+                </div>
+              
+              </div>
+              <div class="footer-col2 col-md-2 col-xs-12">
+                <ul>
+                    <li><a><i class="fa fa-facebook"></i>&emsp;تابعنا في فيسبوك </a></li>
+                    <li><a><i class="fa fa-twitter"></i>&emsp;تابعنا على تويتر </a></li>
+                    <li><a><i class="fa fa-rss"></i>&emsp;خلاصات المقالات</a></li>
+                    <li><a><i class="fa fa-rss"></i>&emsp;خلاصات التعليقات</a></li>
+                    <li><a><i class="fa fa-youtube"></i>&emsp;تابعنا على يوتيوب</a></li>
+                    <li><a><i class="fa fa-envelope-o"></i>&emsp;راسلنا </a></li>
+                </ul>
+            </div>
+          
+          <div class="footer-col1 col-md-4 col-xs-12">
+              <h4>إشترك بالقائمة البريدية لموقعنا ليصلك الجديد</h4>
+                <p>ادخل بريدك الإلكتروني للإشتراك بقائمتنا البريدية ليصلك كل جديد لدينا على بريدك مباشرة جديد </p>
+                <div class="email-subscribe">
+                <div class="form-group">
+                <div class="icon-addon">
+                    <input type="text" placeholder="أدخل بريدك الإلكتروني" class="form-control" id="email">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </div>
+                    <div>
+                    <button class="btn warning-btn email-subscribe-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                    </div>
+            </div>
+            </div>
+              </div>
+          </div>
+      </div>
+          </div>
+<!--      Footer-->
+      <div id="footer" class="navbar navbar-default navbar-bottom">
+      <div  class="container">
+        <p class="navbar-text pull-right">جميع الحقوق محفوظة لأي حد وف أي مكان وف أي وقت ©
+        </p>
+        <div class="header ollapse navbar-collapse pull-left" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">إتصل بنا</a></li>
+            <li><a href="#">سياسة الخدمة</a></li>
+            <li><a href="#">من نحن</a></li>
+            <li class="current-page"><a href="#">الرئيسية<span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </body>
+    
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script src='js/jquery.elevatezoom.js'></script>
+    <script src="js/menu.js"></script>
+    <script src="js/wow.js"></script>
+    
+    <script>
+        $('.carousel').carousel();
+        $('#products-carousel').flickity({
+  // options
+  cellAlign: 'center',
+  contain: true,
+  autoPlay: true,
+  setGallerySize: false,
+  pageDots: false,
+
+    });
+        
+    </script>
+    
+    <script>
+    // This code will be used to for the news animation
+        
+    var off = 0,
+        l = off,
+        $As = $('.marquee li'), 
+        speed = 2,
+        stack = [],
+        pause = false;
+
+    $.each($As, function(){
+      var W = $(this).css({
+        left: l
+      }).width()+off;
+      l+=W; 
+      stack.push($(this));
+    });
+
+    var tick = setInterval(function(){
+      if(!pause){
+        $.each($As, function(){
+          var ml = parseFloat($(this).css('left'))-speed;
+          $(this).css({
+            left: ml
+          });
+          if((ml+$(this).width()) < 0){
+            var $first = stack.shift(),
+                $last = stack[stack.length-1];
+            $(this).css({
+              left: (parseFloat($last.css('left'))+parseFloat($last.width()))+off
+            });
+            stack.push($first);
+          }
+        });
+      }
+    }, 10000/500);
+
+    $('.marquee').on('mouseover', function(){
+      pause = true;
+    }).on('mouseout', function(){
+      pause = false;
+    });
+    </script>
+    
+    <script>
+//        Animation of the counter
+    $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 5000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+    </script>
+    
+    <script>
+//    THis script is use to  animate when scrolling
+        new WOW().init();
+        
+    </script>
+</html>
